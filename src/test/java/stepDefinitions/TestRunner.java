@@ -19,4 +19,6 @@ import io.cucumber.junit.CucumberOptions;
 
 public class TestRunner {
 
+//running by using CucumberOptions
+
 }
