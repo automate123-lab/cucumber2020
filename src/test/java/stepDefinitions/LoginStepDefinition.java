@@ -21,7 +21,8 @@ public class LoginStepDefinition{
 	public WebDriverWait wait;
 	public LoginPage lp;
 	
-//using PageFactory model for designing WebElements
+//implementing all the features in the step definition
+
 	@Before
 	public void setUp() {
 		System.out.println("Starting the test");
