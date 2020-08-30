@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: stepDefinitions.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 66.861 sec <<< FAILURE!
+Login Data Driven(Login Feature)  Time elapsed: 38.996 sec  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to contain "Dashboard / nopCommerce administration". Current title: "Your store. Login" (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-9IUKI7L', ip: '192.168.1.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58021}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 08300880f48b41d673ffa28906a6a33b
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at stepDefinitions.LoginStepDefinition.page_Title_should_be(LoginStepDefinition.java:58)
+	at ?.Page Title should be "Dashboard / nopCommerce administration"(file:///C:/eclipse-workspace/BDDCucumberAutomationFeb2020/src/main/java/Feature/Login.feature:20)
+
