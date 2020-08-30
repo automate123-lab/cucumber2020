@@ -8,6 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class LoginPage {
 public WebDriver driver;
+	//@CacheLookup marks the element and saves the element,so finds quickly when using it. But in case of StaleElementReferenceException not used
 	
 public LoginPage(WebDriver driver) {
 	this.driver=driver;
